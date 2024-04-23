@@ -12,7 +12,7 @@ Cada nueva palabra estara en este "diccionario".
 
 Segun Alura existen 2 tipos de Casting: Implícito y explícito. El "casting implícito" es cuando el programa automáticamente convierte un tipo de dato en otro si son compatibles.
 
-> [!Ejemplo]
+> [!IMPORTANT]
 > Si deseas una mejor idea puedes ir a la carpeta ejemplos
 
 Mientras que el casting "explícito" se realiza cuando el tipo de dato de origen es incompatible con el tipo de dato de destino.
