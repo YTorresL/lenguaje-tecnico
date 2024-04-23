@@ -1,4 +1,4 @@
-# Lenguaje tecnico para programadores, desde lo mas basico hasta lo mas avanzado
+# Lenguaje tecnico para programadores, desde lo mas basico hasta lo mas avanzado 😊
 
 Esta es una guía de lenguaje técnico para programadores, que cubre desde los conceptos básicos hasta los temas más avanzados. Esto puede ser de gran ayuda cuando sabes programar pero el técnico es prácticamente nulo.
 
@@ -13,6 +13,8 @@ Cada nueva palabra estara en este "diccionario".
 Segun Alura existen 2 tipos de Casting: Implícito y explícito. El "casting implícito" es cuando el programa automáticamente convierte un tipo de dato en otro si son compatibles.
 
 > [!IMPORTANT]
-> Si deseas una mejor idea puedes ir a la carpeta ejemplos
+> Si deseas tener una mejor idea puedes ir a la carpeta ejemplos
 
 Mientras que el casting "explícito" se realiza cuando el tipo de dato de origen es incompatible con el tipo de dato de destino.
+
+![Imagen de una tabla, que describe los tipos primitivos e indica los casos en que el cast es implícito y  los casos en que es necesario informar de forma explícita.](https://cdn3.gnarususercontent.com.br/2023-java/psm-img1.png)
