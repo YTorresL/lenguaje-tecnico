@@ -25,4 +25,10 @@ La inferencia de tipos es un proceso utilizado por los compiladores para deducir
 
 ![Ejemplo de inferencia de tipos en Swift](https://www.lafactoriaapple.com/img/ciencias-de-la-computacion/inferencia-de-tipos-01.jpg)
 
-### Health checks
+### Health check
+
+Segun Makigas, en microservicios un healthcheck es un endpoint que se integra en una aplicación web para comunicar su estado. Por ejemplo, este endpoint puede devolver un error si se pierde la conexión con la base de datos o con un servicio externo sin el cual la aplicación no funcione correctamente.
+
+Agentes de monitorización, como los que integra Kubernetes o los que trae AWS, pueden estar pendientes del código de estado que devuelva este endpoint y hacer acciones cuando la aplicación empiece a reportar errores, como reiniciar o enviar alertas.
+
+### Endpoint
