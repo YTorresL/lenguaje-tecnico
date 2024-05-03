@@ -31,4 +31,8 @@ Segun Makigas, en microservicios un healthcheck es un endpoint que se integra en
 
 Agentes de monitorización, como los que integra Kubernetes o los que trae AWS, pueden estar pendientes del código de estado que devuelva este endpoint y hacer acciones cuando la aplicación empiece a reportar errores, como reiniciar o enviar alertas.
 
-### Endpoint
+### Endpoint en aplicaciones web
+
+Un endpoint es básicamente como una puerta de entrada que permite que diferentes programas en internet se comuniquen entre sí. Imagina que cada vez que usas una aplicación web, como enviar un mensaje o buscar información, estás usando estos "puntos finales" sin darte cuenta, como si fueran las puertas que te conectan a lo que necesitas en internet. En pocas palabras, un endpoint sería la dirección específica (URL) a la que el cliente envía una solicitud para obtener o enviar datos.
+
+### Entrypoint en aplicaciones web
