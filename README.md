@@ -31,8 +31,25 @@ Segun Makigas, en microservicios un healthcheck es un endpoint que se integra en
 
 Agentes de monitorización, como los que integra Kubernetes o los que trae AWS, pueden estar pendientes del código de estado que devuelva este endpoint y hacer acciones cuando la aplicación empiece a reportar errores, como reiniciar o enviar alertas.
 
-### Endpoint en aplicaciones web
+### Entrypoint
+
+Segun KeepCoding, El término entry point se utiliza para referirse al punto de inicio de un programa o una aplicación. Es el lugar donde el flujo de ejecución comienza y desde donde se accede al resto del sistema. Podría decirse que es la puerta de entrada a todo el código y la lógica que conforma una aplicación.
+
+Por ejemplo, en lenguajes como C o C++, la función main() suele ser el entry point de un programa. Cuando ejecutas un programa, el sistema operativo llama a main() y, a partir de ahí, se inicia la ejecución del resto del código.
+
+Segun ffflabs en StackOverflow, Entry point es la URL que el visitante habrá ingresado en su navegador para ver su aplicación o sitio. Antiguamente, cada sección de un sitio web era un entrypoint
+
+- home.html
+- galeria.html
+- contacto.html
+- about us.html
+
+### Endpoint
 
 Un endpoint es básicamente como una puerta de entrada que permite que diferentes programas en internet se comuniquen entre sí. Imagina que cada vez que usas una aplicación web, como enviar un mensaje o buscar información, estás usando estos "puntos finales" sin darte cuenta, como si fueran las puertas que te conectan a lo que necesitas en internet. En pocas palabras, un endpoint sería la dirección específica (URL) a la que el cliente envía una solicitud para obtener o enviar datos.
 
-### Entrypoint en aplicaciones web
+Segun ffflabs en StackOverflow, Los endpoints son las URLs de un API o un backend que responden a una petición. Los mismos entrypoints tienen que calzar con un endpoint para existir. Algo debe responder para que se renderice un sitio con sentido para el visitante. Por cada entrypoint esperando la visita de un usuario puede haber docenas de endpoints sirviendo los datos para llenar cada gráfico e infografía que se despliega en el entrypoint.
+
+### Entrypoint vs Endpoint
+
+La diferencia entre entrypoint y endpoint es que los endpoints no están pensados para interactuar con el usuario final. Usualmente sólo devolverán json, o no devolverán nada. Y más que frecuentemente, un entrypoint hará varios llamados a distintos endpoints para mostrar estadísticas, galerías, últimos comentarios, etc.
