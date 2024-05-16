@@ -53,3 +53,14 @@ Segun ffflabs en StackOverflow, Los endpoints son las URLs de un API o un backen
 ### Entrypoint vs Endpoint
 
 La diferencia entre entrypoint y endpoint es que los endpoints no están pensados para interactuar con el usuario final. Usualmente sólo devolverán json, o no devolverán nada. Y más que frecuentemente, un entrypoint hará varios llamados a distintos endpoints para mostrar estadísticas, galerías, últimos comentarios, etc.
+
+### Heap
+
+La memoria Heap se utiliza para almacenar los objetos (incluyendo sus atributos), los objetos almacenados en este espacio de memoria normalmente tienen un tiempo de duración más prolongado que los almacenados en Stack.
+
+### Stack
+
+La memoria Stack se usa para almacenar las variables locales (cuyo ámbito de acción está limitada solo a la función donde se declaró) y también las llamadas de funciones en Java. Las variables almacenadas en esta memoria por lo general tienen un periodo de vida corto, viven hasta que terminen la función o método en el que se están ejecutando.
+
+> [!IMPORTANT]
+> Si deseas tener una mejor idea puedes ir a la carpeta ejemplos
